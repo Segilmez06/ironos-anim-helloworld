@@ -2,6 +2,8 @@
 
 A custom boot animation for IronOS-based devices featuring a typewriter effect. The animation displays a message with a cursor moving across the screen, creating an engaging typewriter-style boot sequence.
 
+![Animation Preview](out/loop.gif)
+
 ## Download
 
 Pre-built animations are available in the [bin](bin/) folder. Download the file matching your device and desired animation duration:
@@ -9,13 +11,26 @@ Pre-built animations are available in the [bin](bin/) folder. Download the file 
 - Format: `{device_name}_{animation_name}_{duration}.hex`
 - Example: `ts100_helloworld_2s.hex` - TS100 device with 2-second duration
 
-Check the bin folder for all available device variants.
+Check the bin folder for all available device variants, or create your own by building from source!
 
 ## Install
 
 1. **Connect your device in DFU mode** - Follow your device manufacturer's instructions to enter DFU (Device Firmware Update) mode
 2. **Move the `.hex` file** - Transfer the downloaded hex file to your device using your device's firmware update tool or method
 3. **Complete the update** - Follow your device's normal firmware flashing procedure
+
+## Variants
+
+The animation is available in multiple speed presets:
+
+| Name | Duration | Loop | Image |
+|------|----------|------|-------|
+| 1 Second | 1s | ❌ | ![1s](out/write_1s.gif) |
+| 2 Seconds | 2s | ❌ | ![2s](out/write_2s.gif) |
+| 3 Seconds | 3s | ❌ | ![3s](out/write_3s.gif) |
+| 4 Seconds | 4s | ✅ | ![4s](out/write_4s.gif) |
+| Looping | ∞ | ✅ | ![loop](out/loop.gif) |
+| Fast | Rapid | ❌ | ![fast](out/fast.gif) |
 
 ## Build
 
