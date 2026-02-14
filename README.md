@@ -4,20 +4,13 @@ A custom boot animation for IronOS-based devices featuring a typewriter effect. 
 
 ![Animation Preview](out/loop.gif)
 
-## Download
+## Download & Install
 
-Pre-built animations are available in the [bin](bin/) folder. Download the file matching your device and desired animation duration:
+1. **Download the firmware**: Pre-built animations are available in the [bin](bin/) folder.
 
-- Format: `{device_name}_{animation_name}_{duration}.hex`
-- Example: `ts100_helloworld_2s.hex`: TS100 device with 2-second duration
+2. **Connect your device in DFU mode**: Follow your device manufacturer's instructions to enter DFU (Device Firmware Update) mode
 
-Check the bin folder for all available device variants, or create your own by building from source!
-
-## Install
-
-1. **Connect your device in DFU mode**: Follow your device manufacturer's instructions to enter DFU (Device Firmware Update) mode
-2. **Move the `.hex` file**: Transfer the downloaded hex file to your device using your device's firmware update tool or method
-3. **Complete the update**: Follow your device's normal firmware flashing procedure
+3. **Move the `.hex` file**: Transfer the downloaded hex file to your device using your device's firmware update tool or method
 
 ## Variants
 
@@ -83,13 +76,10 @@ The build process works as follows:
 
 ## Contributing
 
-Contributions are welcome! Feel free to:
+Feel free to open issues or submit PRs. All contributions are welcome.
 
-- 🐛 **Open issues** for bugs, feature requests, or suggestions
-- 🔧 **Submit PRs** with improvements, new animations, or device variants
-
-**If you find this project useful, please consider giving it a star ⭐**
+**If you find this animation useful, please consider giving it a star. ⭐**
 
 ## Credits
 
-This project builds upon the excellent [IronOS](https://github.com/Ralim/IronOS) firmware project. Created and maintained by [Segilmez06](https://github.com/Segilmez06). Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA-4.0).
+This project builds upon the awesome [IronOS](https://github.com/Ralim/IronOS) firmware project. Created and maintained by [Segilmez06](https://github.com/Segilmez06). Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA-4.0).
